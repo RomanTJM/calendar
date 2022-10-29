@@ -1,0 +1,78 @@
+@font-face {
+	src: url("../../Fonts/Roboto/Roboto-Regular.ttf");
+	font-family: "Roboto";
+}
+
+.div-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0px;
+    width: 1000px;
+    height: 48px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.btn-monitor {
+    width: 32px;
+    height: 24px;   
+    background: #FFFFFF;   
+    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 1px solid #DCDCDC;
+    cursor: pointer;
+}
+
+.monitor-date-span {
+    width: 108px;
+    height: 21px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0 24px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #292929;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn-current-day {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 6px;
+    width: 59px;
+    height: 18px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #292929;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 1px solid #DCDCDC;
+    cursor: pointer;
+    margin-left: 10px;
+}

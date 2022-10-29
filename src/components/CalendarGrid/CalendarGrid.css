@@ -1,0 +1,87 @@
+@font-face {
+	src: url("../../Fonts/Roboto/Roboto-Regular.ttf");
+	font-family: "Roboto";
+}
+
+.text-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #292929;
+}
+
+.text-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B6B6B;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    /* border: 1px solid #292929; */
+    width: 1000px;
+    height: 600px;
+}
+
+.cell-wrapper {
+    width: 143px;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #292929;
+}
+
+.row-in-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 8px 8px 0 8px;
+}
+
+.day-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 127px;
+    height: 16px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    margin-bottom: 8px;
+}
+
+.current-day {
+    height: 100%;
+    width: 100%;
+    background: #cfcfcf;
+    display: flex;
+    border-radius: 3px;
+}
+
+.show-day-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.event-list-wrapper {
+    margin: 0;
+    list-style-position: inside;
+    list-style-type: none;
+    padding: 0;
+} 
+
+.event-item-wrapper {
+    display: contents;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 8px;
+    cursor: pointer;
+ }

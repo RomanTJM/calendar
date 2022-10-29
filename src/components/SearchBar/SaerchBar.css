@@ -1,0 +1,17 @@
+.icon-search {
+    width: 18px;
+    height: 18px;
+    margin: 5px 21px 0 570px;
+}
+
+.input-search {
+    width: 210px;
+    height: 28px;
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    box-shadow: inset 0px 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
